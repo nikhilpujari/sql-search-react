@@ -68,6 +68,7 @@ const OpenCSV = () => {
     };
  
     return (
+        <div>
         <div className="search">
             <label htmlFor="csvInput"  style={{textAlign: "center",
     display: "block"}}>
@@ -85,7 +86,9 @@ const OpenCSV = () => {
                 <Button variant="outlined" onClick={handleParse} style={{margin: "0 auto",
     display: "block"}}>Parse</Button>
             </div>
-            <div className="table-div">
+        </div>
+            
+        <div className="table-div">
             <table className="table-style">
                 <thead>
                     <tr>
