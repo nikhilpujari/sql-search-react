@@ -58,6 +58,7 @@ function Home(){
                 label="Age"
                 value={value} 
                 onChange={handleChange}
+                
               >
                 <MenuItem value={0}>SELECT * FROM customer;</MenuItem>
                 <MenuItem value={1}>SELECT TOP 10 * FROM customer;</MenuItem>
@@ -72,7 +73,7 @@ function Home(){
             <Button variant="contained" style={{padding: "10px", marginTop: "5px", marginLeft:"20px"}} onClick={handleSubmit}>Search</Button>
             {/* <Button variant="contained" style={{padding: "10px", marginTop: "5px", marginLeft:"10px"}} onClick={hideShow}>Open CSV</Button> */}
       </div>
-      <div className="tableWrapper">
+      <div className="tableWrapper" style={{overflow: "auto",display: "block"}}>
           <br />
           <CsvToHtmlTable
             x-scroll
@@ -80,6 +81,7 @@ function Home(){
             data={table}
             csvDelimiter=","
             tableClassName="table-style"
+            
           />
         </div>
         

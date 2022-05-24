@@ -89,7 +89,7 @@ const OpenCSV = () => {
         </div>
             
         <div className="table-div">
-            <table className="table-style">
+            <table className="table-style" style={{overflow: "auto",display: "block"}}>
                 <thead>
                     <tr>
                     {head.map((col,

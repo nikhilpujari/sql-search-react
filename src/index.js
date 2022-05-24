@@ -27,7 +27,7 @@ ReactDOM.render(
          margin: "0 auto",
          width: "50%",
     }}>Search SQL</Button>
-      <Button color="inherit" component={Link} to="/about"
+      <Button color="inherit" component={Link} to="/loadcsv"
             variant="contained" 
             style={{
               backgroundColor: "transparent",
@@ -40,7 +40,7 @@ ReactDOM.render(
     </nav>
   <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/about" element={<OpenCSV/>} />
+      <Route path="/loadcsv" element={<OpenCSV/>} />
   </Routes>
 </Router>,
 
