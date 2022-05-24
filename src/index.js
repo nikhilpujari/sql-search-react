@@ -19,7 +19,7 @@ ReactDOM.render(
     <nav style={{margin:"0 auto", width:"50%"}}>
       {/* <Link to="/home" className="head-button">Home</Link>
       <Link to="/about">About</Link> */}
-      <Button component={Link} to="/home" variant="contained" style={{
+      <Button component={Link} to="/" variant="contained" style={{
          backgroundColor: "#1665C0",
          border: "2px solid black",
          padding: "2px",
@@ -39,7 +39,7 @@ ReactDOM.render(
             
     </nav>
   <Routes>
-      <Route path="/home" element={<Home/>} />
+      <Route path="/" element={<Home/>} />
       <Route path="/about" element={<OpenCSV/>} />
   </Routes>
 </Router>,
