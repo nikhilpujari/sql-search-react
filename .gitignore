@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+#files
+/src/common/Navbar
+/src/common/Sidebar
+
 # production
 /build
 

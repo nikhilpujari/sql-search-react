@@ -1,0 +1,28 @@
+.styling{
+    height: 36px;
+}
+.imgStyle{
+    height:40px;
+    margin-top: 2px;
+}
+.title-head{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    width: 85%;
+    position: absolute;
+    padding: 10px;
+    font-family: 'Lobster';
+}
+.nav-button{
+    background-color: transparent;
+    margin-right: 5px;
+    border: 2px solid white;
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+
+

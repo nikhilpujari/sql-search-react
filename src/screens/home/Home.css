@@ -1,0 +1,14 @@
+.title{
+    background-color: #1665C0;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+}
+.search{
+    margin: auto;
+    width: 50%;
+    border: 3px solid #1665C0;
+    padding: 20px;
+    margin-top: 20px;
+}
